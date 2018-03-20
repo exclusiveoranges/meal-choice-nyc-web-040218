@@ -2,7 +2,12 @@
 # specs live under a `spec` directory, which RSpec adds to the `$LOAD_PATH`.
 # Require this file using `require "spec_helper"` to ensure that it is only
 # loaded once.
-require_relative '../meal_choice.rb' # Code your solution in this file
+require_relative '../meal_choice.rb'
+
+def meal_choice(meal = "meat")
+  meal
+end
+  # Code your solution in this file
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
   # config here
